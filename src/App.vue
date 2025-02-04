@@ -6,7 +6,7 @@
 		@pointerleave="hover=false"
 	>
 		<slot>
-			Title {{styleOptions?.type?.toUpperCase() || 'H1'}}
+			{{styleOptions?.type?.toUpperCase() || 'H1'}} Title
 		</slot>
 	</component>
 </template>
