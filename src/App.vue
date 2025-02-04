@@ -39,6 +39,24 @@
 				themes: ['light', 'dark'],
 				groups: ['default', 'hover']
 			},
+			fontSize: {
+				type: String,
+				default: '',
+				control: 'slider',
+				unit: 'px',
+				breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl'],
+				themes: ['light', 'dark'],
+				groups: ['default', 'hover']
+			},
+			fontWeight: {
+				type: String,
+				default: '',
+				control: 'slider',
+				unit: '',
+				breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl'],
+				themes: ['light', 'dark'],
+				groups: ['default', 'hover']
+			},
 			color: {
 				type: String,
 				default: '',
@@ -181,7 +199,7 @@
 			},
 			styleOptions() {
 				const style = {};
-				const props = ['type', 'color', 'backgroundColor', 'backgroundImage', 'paddingTop', 'paddingRight', 'paddingBottom', 'paddingLeft', 'marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
+				const props = ['type', 'fontSize', 'fontWeight', 'color', 'backgroundColor', 'backgroundImage', 'paddingTop', 'paddingRight', 'paddingBottom', 'paddingLeft', 'marginTop', 'marginRight', 'marginBottom', 'marginLeft'];
 				const groups = ['default', 'hover'];
 				const breakpoints = ['xs', 'sm', 'md', 'lg', 'xl', '2xl'];
 				const themes = ['light', 'dark'];
