@@ -54,6 +54,8 @@
 				default: '',
 				control: 'slider',
 				unit: '',
+				min: 0,
+				max: 1000,
 				breakpoints: ['xs', 'sm', 'md', 'lg', 'xl', '2xl'],
 				themes: ['light', 'dark'],
 				groups: ['default', 'hover']
